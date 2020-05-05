@@ -2,10 +2,22 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.bg-0B0B3B
+/*Edição NAV*/
+
+/*Cor Fundo do Nav*/
+.bg-Nav
 {
-    background-color: #0B0B3B;    
+    background-color: #2E2E2E;    
 }
+
+/*Cor de Font do Nav*/
+
+.color_fontNav{
+    color: #BDBDBD;
+}
+
+
+
 .navbar-toggler-icon
 {
     border: 1px solid rgb(131, 172, 219);
