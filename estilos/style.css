@@ -11,11 +11,13 @@
 }
 
 /*Cor de Font do Nav*/
-
 .color_fontNav{
     color: #BDBDBD;
 }
 
+.color-fontTitulo{
+    color: rgba(4, 4, 78, 0.952);
+}
 
 
 .navbar-toggler-icon
@@ -25,4 +27,17 @@
 
 .color_mistyrose{
     color: mistyrose;;
+}
+
+/*Efeito Letras NAV*/
+
+nav a:hover {
+    color: #ECE8E8;
+    text-decoration: none;
+
+    -webkit-transition: color 300ms ease-out;
+    -moz-transition: color 300ms ease-out;
+    -ms-transition: color 300ms ease-out;
+    -o-transition: color 300ms ease-out;
+    transition: color 300ms ease-out;
 }

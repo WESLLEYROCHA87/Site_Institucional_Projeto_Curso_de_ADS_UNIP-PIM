@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <title>Site Institucional</title>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="shortcut icon" href="img/favicon.png" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="estilos/style.css">
+
+  <!-- Fontes Externas-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="estilos/style.css">
+
+</head>
+
+<body>
+  <!--Menu-->
+  <nav class="navbar navbar-expand-lg  bg-Nav">
+    <a class="navbar-brand color_fontNav" href="index.html">EMPRESA</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAlteraNav"
+      aria-controls="navbarNavAlteraNav" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAlteraNav">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active color_fontNav" href="index.html">Home <span class="sr-only">(Página
+            atual)</span></a>
+        <a class="nav-item nav-link color_fontNav" href="sobre.html">Sobre</a>
+        <a class="nav-item nav-link color_fontNav" href="faleconosco.html">Fale Conosco</a>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <h1 class=" text-center color-fontTitulo my-3">Fale Conosco</h1>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+
+        <form action="fale_conosco.php" method="post">
+
+          <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" class="form-control" placeholder="Nome" required>
+          </div>
+
+          <div class="form-group">
+            <label for="telefone">Telefone:</label>
+            <input type="text" name="telefone" class="form-control" placeholder="telefone" required>
+          </div>
+
+          <div class="form-group">
+            <label for="endereco">Endereço de email</label>
+            <input type="email" name="email" class="form-control" placeholder="nome@dominio.com.br" required>
+          </div>
+
+          <div class="form-group">
+            <label for="selectOpcao">Selecione o que deseja:</label>
+            <select class="form-control" name="selectOpcao" type="select">
+              <option>Selecione a opção desejada.....</option>
+              <option>Dúvida</option>
+              <option>Elogio</option>
+              <option>Sugestão</option>
+            </select>
+          </div>
+
+          <div class="form-group mb-5">
+            <label for="mensagem">Escreva seu texto abaixo</label>
+            <textarea class="form-control" name="mensagem" rows="3" required></textarea>
+          </div>
+
+          <input class="btn btn-dark " type="submit" name="submit" value="Enviar">
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="jumbotron jumbotron-fluid mt-5 mb-auto bg-Nav">
+    <div class="container">
+      <h1 class="display-5 color_fontNav">Empresa</h1>
+      <p class="lead color_fontNav">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto cum voluptatibus
+        molestias excepturi, hic dignissimos, asperiores adipisci ut tempore, et dolore beatae distinctio dolorem fuga
+        quos iusto amet! Velit, recusandae!</p>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
