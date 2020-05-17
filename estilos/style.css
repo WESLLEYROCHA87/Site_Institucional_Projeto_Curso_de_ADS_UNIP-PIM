@@ -1,8 +1,8 @@
-* {
+*{
+    margin:0;
+    padding:0;
     font-family: 'Montserrat', sans-serif;
 }
-
-/*Edição NAV*/
 
 /*Cor Fundo do Nav*/
 .bg-Nav
@@ -19,7 +19,7 @@
     color: rgba(4, 4, 78, 0.952);
 }
 
-
+/*Cor icon menu responsivo*/
 .navbar-toggler-icon
 {
     border: 1px solid rgb(131, 172, 219);
@@ -29,15 +29,39 @@
     color: mistyrose;;
 }
 
-/*Efeito Letras NAV*/
+/*Configuração Footer*/
+
+footer{
+    margin-top: 100px;
+    bottom:0;
+    width:100%;
+}
+
+/*Efeito títulos NAV*/
 
 nav a:hover {
     color: #ECE8E8;
     text-decoration: none;
-
     -webkit-transition: color 300ms ease-out;
     -moz-transition: color 300ms ease-out;
     -ms-transition: color 300ms ease-out;
     -o-transition: color 300ms ease-out;
     transition: color 300ms ease-out;
 }
+
+/*Estilo imagens pg Sobre*/
+
+.styleimgSobre{
+    width: 100px;
+    height: 100px;       
+    margin-right: 10px;
+}
+
+.styleimgAvançado{
+   margin-top: 50px;
+   border: 2px solid #00BFFF;
+
+}
+
+
+
